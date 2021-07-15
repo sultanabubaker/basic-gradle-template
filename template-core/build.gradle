@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+mainClassName = 'io.jeffchao.template.core.Core'
+
+dependencies {
+    implementation 'com.google.guava:guava:24.0-jre'
+    compile 'io.takari:takari-archiver:0.1.17'
+}
+
+run.doFirst {
+  // Environment variables go here.
+}    

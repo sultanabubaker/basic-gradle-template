@@ -1,0 +1,6 @@
+rootProject.name = 'basic-gradle-template'
+
+include 'template-core'
+include 'template-server'
+project(':').buildFileName = 'Kathie.gradle'
+project(':template-server').buildFileName = 'kathieTest.gradle'

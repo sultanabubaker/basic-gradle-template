@@ -1,0 +1,5 @@
+dependencies{
+    compile 'commons-dbcp:commons-dbcp:1.4'
+    implementation group: 'com.google.guava', name: 'guava',
+            version: '24.1-jre' 
+}

@@ -1,0 +1,16 @@
+import sun.tools.java.Environment
+
+apply plugin: 'application'
+
+mainClassName = 'io.jeffchao.template.server.Server'
+
+
+dependencies {
+    compile 'org.rcsb:mmtf-serialization:$mmtfVersion'
+
+}
+
+run.doFirst {
+    // Environment variables go here.
+}
+            
