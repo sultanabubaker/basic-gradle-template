@@ -16,6 +16,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile 'io.takari:takari-archiver:0.1.18'
     implementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
+    compile "org.rcsb:mmtf-serialization:1.0.8"
+    testCompile 'org.mockito:mockito-core:2.11.0'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
